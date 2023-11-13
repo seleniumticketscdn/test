@@ -2,6 +2,7 @@ from lyricsgenius import genius
 from quart import Quart , jsonify , request
 import syncedlyrics
 
+
 app = Quart(__name__)
 
 async def get_lyrics(query:str)->None:
